@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>Registration form </title>
+<style>
+::placeholder
+{
+color:red;
+}
+
+</style>
+<script>
+</script>
+</head>
+
+<body>
+<h1>Registration Form</h1>
+
+
+
+Userid:<input type="text" placeholder="Required and must be of length 5 to 12" required size="40">
+<p></p>
+
+Password:<input type="text" placeholder="Required and must be of length 7 to 12" required size="40">
+<p></p>
+
+Name:<input type="text" placeholder="Required and alphabets only" required size="50">
+<p></p>
+
+Address:<input type="text" placeholder="Optional" size="50" required>
+<p></p>
+
+Country:<select name="country" placeholder="Must select a country">
+<option selected="" value="Default">(Please select a country)</option>
+<option value="AF">Australia</option>
+<option value="AL">Canada</option>
+<option value="DZ">India</option>
+<option value="AS">Russia</option>
+<option value="AD">USA</option>
+</select>
+<p></p>
+
+ZIP Code:<input type="text" placeholder="Required must be numeric only" size="40">
+<p></p>
+
+Email:<input type="text" placeholder="Required.Must be valid email." size="50" required>
+<p></p>
+
+Sex:<input type="radio" value="Male"><span>Male</span>
+<input type="radio" value="Female"><span>Female</span><placeholder="required">
+<p></p>
+
+Language:<input type="checkbox" value="en" checked /><span>English</span>
+<input type="checkbox" value="noen" /><span>Non English</span>
+<p></p>
+
+About:<textarea name="asec" placeholder="Optional"  size="60">
+</textarea>
+<p></p>
+
+
+<input type="submit" value="Submit">
+<p></p>
+
+</form>
+</body>
+</html>
